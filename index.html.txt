@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>God EPC | Engineering Costing & Project Management</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --dark: #0f172a;
+      --light: #f8fafc;
+      --accent: #38bdf8;
+      --accent2: #22c55e;
+      --gray: #94a3b8;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(120deg, #020617, #020617);
+      color: var(--light);
+      line-height: 1.6;
+    }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: 60px;
+      background: radial-gradient(circle at top right, rgba(56,189,248,0.15), transparent 60%);
+    }
+
+    .hero {
+      max-width: 900px;
+    }
+
+    .hero h1 {
+      font-size: 3.5rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+      background: linear-gradient(to right, #38bdf8, #22c55e);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: var(--gray);
+      margin-bottom: 40px;
+    }
+
+    .hero a {
+      display: inline-block;
+      padding: 14px 32px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      color: #020617;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 30px;
+      transition: transform 0.3s ease;
+    }
+
+    .hero a:hover {
+      transform: translateY(-4px);
+    }
+
+    section {
+      padding: 100px 60px;
+    }
+
+    .section-title {
+      font-size: 2.2rem;
+      margin-bottom: 20px;
+    }
+
+    .section-subtitle {
+      color: var(--gray);
+      max-width: 700px;
+      margin-bottom: 60px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.03);
+      padding: 30px;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 50px rgba(56,189,248,0.15);
+    }
+
+    .card h3 {
+      margin-bottom: 15px;
+      font-size: 1.3rem;
+    }
+
+    .card p {
+      color: var(--gray);
+      font-size: 0.95rem;
+    }
+
+    .about {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 60px;
+      align-items: center;
+    }
+
+    .about-box {
+      background: linear-gradient(135deg, rgba(56,189,248,0.15), rgba(34,197,94,0.1));
+      padding: 40px;
+      border-radius: 30px;
+    }
+
+    footer {
+      padding: 40px;
+      text-align: center;
+      color: var(--gray);
+      background: #020617;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        padding: 40px 30px;
+      }
+
+      .hero h1 {
+        font-size: 2.5rem;
+      }
+
+      section {
+        padding: 80px 30px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <header>
+    <div class="hero">
+      <h1>God EPC Engineering</h1>
+      <p>
+        Engineering Costing & Project Management specialists delivering
+        precision-driven EPC solutions with innovation, clarity, and control.
+      </p>
+      <a href="#services">Explore Our Expertise</a>
+    </div>
+  </header>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <h2 class="section-title">Our Core Services</h2>
+    <p class="section-subtitle">
+      Comprehensive EPC support designed to optimize cost, timelines,
+      and execution quality across complex engineering projects.
+    </p>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Engineering Costing</h3>
+        <p>
+          Accurate project cost estimation, budgeting, BOQ preparation,
+          and value engineering for EPC projects.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Project Management</h3>
+        <p>
+          End-to-end project planning, scheduling, monitoring, and control
+          aligned with international standards.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>EPC Advisory</h3>
+        <p>
+          Strategic EPC advisory services ensuring risk mitigation,
+          compliance, and optimized execution.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Contract & Claims</h3>
+        <p>
+          Contract administration, claims management, and dispute
+          avoidance for engineering projects.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section>
+    <div class="about">
+      <div>
+        <h2 class="section-title">About God EPC</h2>
+        <p class="section-subtitle">
+          God EPC Engineering Costing & Project Management is built on
+          precision, transparency, and technical excellence.
+        </p>
+        <p style="color: var(--gray);">
+          We partner with clients to transform engineering concepts into
+          efficiently executed projects. Our expertise spans costing,
+          planning, execution control, and strategic EPC consulting across
+          industries.
+        </p>
+      </div>
+
+      <div class="about-box">
+        <h3>Why Choose Us</h3>
+        <p>
+          ✔ Data-driven costing accuracy<br><br>
+          ✔ Structured project governance<br><br>
+          ✔ Risk-aware EPC execution<br><br>
+          ✔ Modern tools & methodologies
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2026 God EPC Engineering Costing & Project Management<br>
+    All Rights Reserved
+  </footer>
+
+</body>
+</html>
